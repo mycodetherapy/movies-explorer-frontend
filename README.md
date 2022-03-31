@@ -1,1 +1,1 @@
-# movies-explorer-frontend
+# Проект movies-explorer-frontend
