@@ -26,7 +26,7 @@ export default function Promo() {
         </li>
       </ul>
 
-      <ul className="promo__wrap">
+      <ul className="promo__wrap promo__wrap_modif">
         <li className="promo__column promo__column_modif">
           <h3 className="promo__column-title promo__column-title_modif promo__column-title_green">
             1 неделя
