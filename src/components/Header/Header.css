@@ -1,0 +1,12 @@
+.header {
+    border: 1px solid red;
+    width: 100%;
+    height: 74px;
+    position: absolute;
+}
+
+.header__logo {
+    width: 38px;
+    height: 38px;
+    background: url("../../images/Header/logo.png") no-repeat center;
+}

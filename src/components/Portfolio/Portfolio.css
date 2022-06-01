@@ -31,6 +31,12 @@
   font-size: 30px;
   margin: 19px 0;
   display: block;
+  opacity: 1;
+}
+
+.portfolio__link:hover {
+  opacity: 0.6;
+  transition: 0.3s;
 }
 
 .portfolio__link-icon {
