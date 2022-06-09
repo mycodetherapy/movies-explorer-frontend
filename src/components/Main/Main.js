@@ -8,20 +8,28 @@ import AboutMe from "../AboutMe/AboutMe";
 import Portfolio from "../Portfolio/Portfolio";
 
 import SearchForm from "../SearchForm/SearchForm";
+import MoviesCard from "../MoviesCard/MoviesCard";
+import MoviesCardList from "../MoviesCardList/MoviesCardList";
+import Footer from "../Footer/Footer";
 
 export default function Main() {
   return (
     <>
-    <Header />
+      <MoviesCardList />
+
+      <Header />
       <main className="main">
         <Title />
 
         <SearchForm />
+        <MoviesCard />
 
         <Promo />
         <Techs />
         <AboutMe />
         <Portfolio />
+
+        <Footer />
       </main>
     </>
   );
