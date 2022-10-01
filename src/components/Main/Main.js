@@ -10,19 +10,24 @@ import Portfolio from "../Portfolio/Portfolio";
 import SearchForm from "../SearchForm/SearchForm";
 import MoviesCard from "../MoviesCard/MoviesCard";
 import MoviesCardList from "../MoviesCardList/MoviesCardList";
+import Register from "../Register/Register";
+import Login from "../Login/Login";
+import Profile from "../Profile/Profile";
+
 import Footer from "../Footer/Footer";
 
 export default function Main() {
   return (
     <>
-      <MoviesCardList />
-
-      <Header />
+      {/* <Header /> */}
       <main className="main">
         <Title />
 
-        <SearchForm />
-        <MoviesCard />
+        {/* <SearchForm /> */}
+        {/* <MoviesCard /> */}
+        {/* <Register />
+        <Login /> */}
+        {/* <Profile /> */}
 
         <Promo />
         <Techs />

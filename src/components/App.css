@@ -1,3 +1,9 @@
+.page {
+  padding-top: 74px;
+  background-color: #202020;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./MoviesCardList.css";
 import MoviesCard from "../MoviesCard/MoviesCard";
+import SearchForm from "../SearchForm/SearchForm";
 
 const MoviesCardList = () => {
   const cards = [];
@@ -9,6 +10,7 @@ const MoviesCardList = () => {
   }
   return (
     <section className="mowies__wrapper">
+      <SearchForm />
       <div className="movies">{cards}</div>
       <div className="movies__button-wrapper">
         <button className="movies__button">Ещё</button>
